@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "When scaling this service across multiple servers, how would you make an entire payment batch and its idempotency entries atomic?",
+        "zh-cn": "多实例部署时，如何保证整个付款批次及其幂等记录的原子性？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How would you expire idempotency records without silently settling a late retry again?",
+        "zh-cn": "如何清理幂等记录，同时避免过期后的重试再次结算？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would you index invoice matching while keeping tie-breaking deterministic under concurrent payments?",
+        "zh-cn": "如何为发票匹配建立索引，同时保证并发付款下排序和选择结果正确？"
+      },
+      "answer": ""
+    }
+  ]
+}
